@@ -132,6 +132,10 @@ namespace CKAN
             log.InfoFormat("Initialised {0}", CkanDir());
         }
 
+        #endregion
+
+        #region Settings
+
         public void SetCompatibleVersions(List<GameVersion> compatibleVersions)
         {
             this._compatibleVersions = compatibleVersions.Distinct().ToList();
@@ -177,6 +181,23 @@ namespace CKAN
         {
             return new List<GameVersion>(this._compatibleVersions);
         }
+
+        public string[] InstallFilters
+        {
+            get
+            {
+                return File.Exists(InstallFiltersFile)
+                    ? JsonConvert.DeserializeObject<string[]>(File.ReadAllText(InstallFiltersFile))
+                    : new string[] { };
+            }
+
+            set
+            {
+                File.WriteAllText(InstallFiltersFile, JsonConvert.SerializeObject(value));
+            }
+        }
+
+        private string InstallFiltersFile => Path.Combine(CkanDir(), "install_filters.json");
 
         #endregion
 
