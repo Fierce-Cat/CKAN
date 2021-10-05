@@ -625,6 +625,9 @@
     <EmbeddedResource Include="Dialogs\InstallFiltersDialog.resx">
       <DependentUpon>InstallFiltersDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Localization\fr-FR\GameCommandLineOptionsDialog.fr-FR.resx">
+        <DependentUpon>..\..\Dialogs\InstallFiltersDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
       <SubType>Designer</SubType>
