@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows.Forms;
 using CKAN;
+using CKAN.GUI;
 using NUnit.Framework;
 using Tests.Core.Configuration;
 using Tests.Data;

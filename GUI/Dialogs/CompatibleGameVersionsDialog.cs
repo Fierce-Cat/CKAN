@@ -6,7 +6,7 @@ using Autofac;
 using CKAN.Versioning;
 using CKAN.GameVersionProviders;
 
-namespace CKAN
+namespace CKAN.GUI
 {
     public partial class CompatibleGameVersionsDialog : Form
     {

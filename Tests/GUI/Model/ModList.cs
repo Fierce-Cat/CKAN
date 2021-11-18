@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using CKAN;
+using CKAN.GUI;
 using CKAN.Versioning;
 using NUnit.Framework;
 using Tests.Core.Configuration;
