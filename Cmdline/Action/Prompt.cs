@@ -16,10 +16,7 @@ namespace CKAN.CmdLine
             // Print an intro if not in headless mode
             if (!(opts?.Headless ?? false))
             {
-                Console.WriteLine("Welcome to CKAN!");
-                Console.WriteLine("");
-                Console.WriteLine("To get help, type help and press enter.");
-                Console.WriteLine("");
+                Console.WriteLine(Properties.Resources.PromptWelcome, exitCommand);
             }
             bool done = false;
             while (!done)
@@ -29,8 +26,9 @@ namespace CKAN.CmdLine
                 {
                     Console.Write(
                         manager.CurrentInstance != null
-                            ? $"CKAN {Meta.GetVersion()}: {manager.CurrentInstance.game.ShortName} {manager.CurrentInstance.Version()} ({manager.CurrentInstance.Name})> "
-                            : $"CKAN {Meta.GetVersion()}> "
+                            ? string.Format(Properties.Resources.PromptWithInstance,
+                                Meta.GetVersion(), manager.CurrentInstance.game.ShortName, manager.CurrentInstance.Version(), manager.CurrentInstance.Name)
+                            : string.Format(Properties.Resources.PromptWithoutInstance, Meta.GetVersion())
                     );
                 }
                 // Get input
