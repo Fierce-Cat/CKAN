@@ -273,7 +273,7 @@ Consult this page for help:
 https://github.com/KSP-CKAN/CKAN/wiki/SSL-certificate-errors</value></data>
   <data name="KrakenMissingCertificateNotUnix" xml:space="preserve"><value>Oh no! Our download failed with a certificate error!</value></data>
   <data name="KrakenDownloadThrottled" xml:space="preserve"><value>Download from {0} was throttled.
-Consider adding an authentication token to increase the throtting limit.</value></data>
+Consider adding an authentication token to increase the throttling limit.</value></data>
   <data name="KrakenAlreadyRunning" xml:space="preserve"><value>CKAN is already running for this instance!
 
 If you're certain this is not the case, then delete:
