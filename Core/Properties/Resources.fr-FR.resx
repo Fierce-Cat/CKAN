@@ -144,8 +144,8 @@ Installez le paquet `mono-complete` ou un équivalent pour votre système d'expl
   <data name="NetRepoSaving" xml:space="preserve"><value>Sauvegarde des modules dans le registre</value></data>
   <data name="NetRepoSaved" xml:space="preserve"><value>Registre mis à jour</value></data>
   <data name="NetRepoUpdatedAll" xml:space="preserve"><value>Répertoire mis à jour</value></data>
-  <data name="NetRepoNoModules" xml:space="preserve"><value>Aucun module trouvé!</value></data>
-  <data name="NetRepoFailedDownload" xml:space="preserve"><value>Échec du téléchargement de {0}: {1}</value></data>
+  <data name="NetRepoNoModules" xml:space="preserve"><value>Aucun module trouvé !</value></data>
+  <data name="NetRepoFailedDownload" xml:space="preserve"><value>Échec du téléchargement de {0} : {1}</value></data>
   <data name="NetRepoChangedModulesReinstallPrompt" xml:space="preserve"><value>Les mods suivants ont eu leur métadonnées changées depuis la dernière mis à jour :
 
 {0}
@@ -159,14 +159,14 @@ Souhaitez-vous réinstaller maintenant ?</value></data>
   <data name="RegistryManagerDirectoryNotFound" xml:space="preserve"><value>Impossible de trouver un dossier dans {0}</value></data>
   <data name="RegistryManagerExportFilenamePrefix" xml:space="preserve"><value>installé</value></data>
   <data name="RegistryManagerDefaultModpackAbstract" xml:space="preserve"><value>Une liste des modules installés sur l'instance KSP {0} </value></data>
-  <data name="CkanModuleDeserialisationError" xml:space="preserve"><value>Erreur de désérialisation JSON: {0}</value></data>
+  <data name="CkanModuleDeserialisationError" xml:space="preserve"><value>Erreur de désérialisation JSON : {0}</value></data>
   <data name="CkanModuleUnsupportedSpec" xml:space="preserve"><value>{0} requiert CKAN {1}, impossible de le lire.</value></data>
   <data name="CkanModuleMissingRequired" xml:space="preserve"><value>{0} ne possède pas le champ obligatoire {1}</value></data>
   <data name="CkanModuleKspVersionMixed" xml:space="preserve"><value>ksp_version mélangé avec ksp_version_(min|max)</value></data>
   <data name="CkanModuleNotAvailable" xml:space="preserve"><value>Le module {0} version {1} n'est pas disponible</value></data>
   <data name="CkanModuleNotInstalledOrAvailable" xml:space="preserve"><value>Le module {0} n'est pas installé ou indisponible</value></data>
   <data name="CkanModuleAllVersions" xml:space="preserve"><value>Toutes les versions</value></data>
-  <data name="LicenceInvalid" xml:space="preserve"><value>La license {0} est invalide</value></data>
+  <data name="LicenceInvalid" xml:space="preserve"><value>La licence {0} est invalide</value></data>
   <data name="ModuleInstallDescriptorMustHaveInstallTo" xml:space="preserve"><value>L'instance d'installation doit avoir une instruction install_to</value></data>
   <data name="ModuleInstallDescriptorRequireFileFind" xml:space="preserve"><value>L'instance d'installation doit avoir une instruction file, find, ou find_regexp</value></data>
   <data name="ModuleInstallDescriptorTooManyFileFind" xml:space="preserve"><value>L'instance d'installation doit inclure une seul instruction file, find, ou find_regexp</value></data>
@@ -186,7 +186,7 @@ Souhaitez-vous réinstaller maintenant ?</value></data>
   <data name="GameVersionSelectHeader" xml:space="preserve"><value>La version spécifiée n'est pas unique, veuillez en choisir une :</value></data>
   <data name="GameVersionSelectBuildHeader" xml:space="preserve"><value>Le numéro de build est inconnu pour ce patch. Veuillez en sélectionner un :</value></data>
   <data name="GameVersionNotKnown" xml:space="preserve"><value>Cette version est inconnue de CKAN.</value></data>
-  <data name="GameVersionCriteriaToString" xml:space="preserve"><value>[Versions: {0}]</value></data>
+  <data name="GameVersionCriteriaToString" xml:space="preserve"><value>[Versions : {0}]</value></data>
   <data name="GameVersionRangeMinOnly" xml:space="preserve"><value>{0} {1} ou plus ancienne</value></data>
   <data name="GameVersionRangeMaxOnly" xml:space="preserve"><value>{0} {1} ou plus récente</value></data>
   <data name="ProvidesModuleVersionToString" xml:space="preserve"><value>{0} (fourni par {1})</value></data>
@@ -227,7 +227,7 @@ Souhaitez-vous réinstaller maintenant ?</value></data>
   <data name="ModuleInstallerBadDLLLocation" xml:space="preserve"><value>Le DLL du module {0} a été trouvé à {1}, mais ce n'est pas là où CKAN l'installerait. Annulation pour éviter que plusieurs copies du même mod soient installées. Pour installer ce module, désinstallez-le manuellement puis réessayez.</value></data>
   <data name="ModuleInstallerFileSame" xml:space="preserve"><value>Pareil</value></data>
   <data name="ModuleInstallerFileDifferent" xml:space="preserve"><value>DIFFÉRENT</value></data>
-  <data name="ModuleInstallerOverwrite" xml:space="preserve"><value>Le module {0} veut remplacer les fichiers manuellement installés suivants:
+  <data name="ModuleInstallerOverwrite" xml:space="preserve"><value>Le module {0} veut remplacer les fichiers manuellement installés suivants :
 
 {1}
 
@@ -250,7 +250,7 @@ Remplacer ?</value></data>
 Veuillez l'enlever manuellement avant d'essayer de l'installer.</value></data>
   <data name="ModuleInstallerReplaceNotInstalled" xml:space="preserve"><value>Impossible de remplacer {0} car il n'est pas installé. Veuillez essayer d'installer {1} à la place.</value></data>
   <data name="ModuleInstallerImporting" xml:space="preserve"><value>Importation de {0}... ({1}%)</value></data>
-  <data name="ModuleInstallerImportAlreadyCached" xml:space="preserve"><value>Already cached: {0}</value></data>
+  <data name="ModuleInstallerImportAlreadyCached" xml:space="preserve"><value>Already cached : {0}</value></data>
   <data name="ModuleInstallerImportingMod" xml:space="preserve"><value>Importing {0} {1}...</value></data>
   <data name="ModuleInstallerImportNotFound" xml:space="preserve"><value>Introuvable dans l'index : {0}</value></data>
   <data name="ModuleInstallerImportInstallPrompt" xml:space="preserve"><value>Installer {0} les mods importés compatibles dans l'instance de jeu {1} ({2}) ?</value></data>
