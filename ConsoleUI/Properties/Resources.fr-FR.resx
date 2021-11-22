@@ -321,67 +321,67 @@ Si vous l'enlevez, CKAN ne pourra pas le réinstaller.</value></data>
   <data name="ModListUpgradeMenu" xml:space="preserve"><value>Tout mettre à niveau</value></data>
   <data name="ModListUpgradeMenuTip" xml:space="preserve"><value>Marquer toutes les mises à jour prêtes à être installées</value></data>
   <data name="ModListAuditRecsMenu" xml:space="preserve"><value>Auditionner les recommandations</value></data>
-  <data name="ModListAuditRecsMenuTip" xml:space="preserve"><value>List mods suggested and recommended by installed mods</value></data>
-  <data name="ModListImportMenu" xml:space="preserve"><value>Import downloads...</value></data>
-  <data name="ModListImportMenuTip" xml:space="preserve"><value>Select manually downloaded mods to import into CKAN</value></data>
-  <data name="ModListExportMenu" xml:space="preserve"><value>Export installed...</value></data>
-  <data name="ModListExportMenuTip" xml:space="preserve"><value>Save your mod list</value></data>
-  <data name="ModListInstanceSettingsMenu" xml:space="preserve"><value>Game instance settings...</value></data>
-  <data name="ModListInstanceSettingsMenuTip" xml:space="preserve"><value>Configure the current game instance</value></data>
-  <data name="ModListSelectInstanceMenu" xml:space="preserve"><value>Select game instance...</value></data>
-  <data name="ModListSelectInstanceMenuTip" xml:space="preserve"><value>Switch to a different game instance</value></data>
-  <data name="ModListAuthTokenMenu" xml:space="preserve"><value>Authentication tokens...</value></data>
-  <data name="ModListAuthTokenMenuTip" xml:space="preserve"><value>Edit authentication tokens sent to download servers</value></data>
-  <data name="ModListHelpMenu" xml:space="preserve"><value>Help</value></data>
-  <data name="ModListHelpMenuTip" xml:space="preserve"><value>Tips &amp; tricks</value></data>
-  <data name="ModListQuitMenu" xml:space="preserve"><value>Quit</value></data>
-  <data name="ModListQuitMenuTip" xml:space="preserve"><value>Exit to DOS</value></data>
-  <data name="ModListCaptureKeyMenu" xml:space="preserve"><value>DEBUG: Capture key...</value></data>
-  <data name="ModListCaptureKeyMenuTip" xml:space="preserve"><value>Print details of how your system reports a keystroke for debugging</value></data>
-  <data name="ModListPressAKey" xml:space="preserve"><value>Press a key</value></data>
-  <data name="ModListAuditNotFound" xml:space="preserve"><value>Installed mods have no unsatisfied recommendations or suggestions.</value></data>
-  <data name="ModListUpdateRegistryTitle" xml:space="preserve"><value>Updating Registry</value></data>
-  <data name="ModListUpdateRegistryMessage" xml:space="preserve"><value>Checking for updates</value></data>
-  <data name="ModListNewMod" xml:space="preserve"><value>{0} new mod available since last update. Show it?</value></data>
-  <data name="ModListNewMods" xml:space="preserve"><value>{0} new mods available since last update. Show them?</value></data>
-  <data name="ModListScanBad" xml:space="preserve"><value>{0} The repo has not been saved.</value></data>
-  <data name="ModListExportPrefix" xml:space="preserve"><value>install</value></data>
-  <data name="ModListExported" xml:space="preserve"><value>Mod list exported to {0}</value></data>
-  <data name="ModListExportFailed" xml:space="preserve"><value>Export failed: {0}</value></data>
-  <data name="ModListHelpSymbolHeader" xml:space="preserve"><value>Status Symbols</value></data>
-  <data name="ModListHelpInstalled" xml:space="preserve"><value>Installed</value></data>
-  <data name="ModListHelpAutoInstalled" xml:space="preserve"><value>Auto-installed</value></data>
-  <data name="ModListHelpUpgradeable" xml:space="preserve"><value>Upgradeable</value></data>
-  <data name="ModListHelpManuallyInstalled" xml:space="preserve"><value>Manually installed</value></data>
-  <data name="ModListHelpReplaceable" xml:space="preserve"><value>Replaceable</value></data>
-  <data name="ModListHelpUnavailable" xml:space="preserve"><value>Unavailable</value></data>
-  <data name="ModListHelpBasicKeysHeader" xml:space="preserve"><value>Basic Keys</value></data>
-  <data name="ModListHelpMoveFocus" xml:space="preserve"><value>Move focus</value></data>
-  <data name="ModListHelpSelectRow" xml:space="preserve"><value>Select row</value></data>
-  <data name="ModListHelpClearSearch" xml:space="preserve"><value>Clear search</value></data>
-  <data name="ModListHelpSpecialSearchesHeader" xml:space="preserve"><value>Special Searches</value></data>
-  <data name="ModListHelpAuthor" xml:space="preserve"><value>author</value></data>
-  <data name="ModListHelpName" xml:space="preserve"><value>name</value></data>
-  <data name="ModListHelpSearchAuthor" xml:space="preserve"><value>Mods by author</value></data>
-  <data name="ModListHelpSearchInstalled" xml:space="preserve"><value>Installed mods</value></data>
-  <data name="ModListHelpSearchUpgradeable" xml:space="preserve"><value>Upgradeable mods</value></data>
-  <data name="ModListHelpSearchDepends" xml:space="preserve"><value>Depend on name</value></data>
-  <data name="ModListHelpSearchConflicts" xml:space="preserve"><value>Conflict w/ name</value></data>
-  <data name="ModListHelpSearchNew" xml:space="preserve"><value>New mods</value></data>
-  <data name="ExitTitle" xml:space="preserve"><value>{0}, the Comprehensive Kerbal Archive Network</value></data>
-  <data name="ExitBody" xml:space="preserve"><value>YOU ARE USING {1}.
+  <data name="ModListAuditRecsMenuTip" xml:space="preserve"><value>Liste de tous les mods suggérés ou recommandés par les mods installés</value></data>
+  <data name="ModListImportMenu" xml:space="preserve"><value>Importer des téléchargements...</value></data>
+  <data name="ModListImportMenuTip" xml:space="preserve"><value>Sélectionnez des mods téléchargés manuellement à importer dans CKAN</value></data>
+  <data name="ModListExportMenu" xml:space="preserve"><value>Exporter mods installés...</value></data>
+  <data name="ModListExportMenuTip" xml:space="preserve"><value>Sauvegarde de votre liste de mods installés</value></data>
+  <data name="ModListInstanceSettingsMenu" xml:space="preserve"><value>Paramètres de l'instance de jeu...</value></data>
+  <data name="ModListInstanceSettingsMenuTip" xml:space="preserve"><value>Configurer l'instance de jeu actuelle</value></data>
+  <data name="ModListSelectInstanceMenu" xml:space="preserve"><value>Sélectionner une instance de jeu...</value></data>
+  <data name="ModListSelectInstanceMenuTip" xml:space="preserve"><value>Passer à une instance de jeu différente</value></data>
+  <data name="ModListAuthTokenMenu" xml:space="preserve"><value>Jeton d'authentification...</value></data>
+  <data name="ModListAuthTokenMenuTip" xml:space="preserve"><value>Éditer les jetons d'authentication envoyés aux serveurs de téléchargements</value></data>
+  <data name="ModListHelpMenu" xml:space="preserve"><value>Aide</value></data>
+  <data name="ModListHelpMenuTip" xml:space="preserve"><value>Trucs &amp; astuces</value></data>
+  <data name="ModListQuitMenu" xml:space="preserve"><value>Quitter</value></data>
+  <data name="ModListQuitMenuTip" xml:space="preserve"><value>Sortir vers DOS</value></data>
+  <data name="ModListCaptureKeyMenu" xml:space="preserve"><value>DÉBOGAGE : Enregistrer les touches...</value></data>
+  <data name="ModListCaptureKeyMenuTip" xml:space="preserve"><value>Afficher les détails sur comment votre système signale les touches pressées, pour le débogage</value></data>
+  <data name="ModListPressAKey" xml:space="preserve"><value>Appuyez sur une touche</value></data>
+  <data name="ModListAuditNotFound" xml:space="preserve"><value>Les mods installés n'ont aucune recommandations ou suggestions supplémentaires.</value></data>
+  <data name="ModListUpdateRegistryTitle" xml:space="preserve"><value>Mise à Jour du Registre</value></data>
+  <data name="ModListUpdateRegistryMessage" xml:space="preserve"><value>Recherche de mises à jour</value></data>
+  <data name="ModListNewMod" xml:space="preserve"><value>{0} nouveau mod depuis la dernière mise à jour. L'afficher ?</value></data>
+  <data name="ModListNewMods" xml:space="preserve"><value>{0} nouveaux mods depuis la dernière mise à jour. Les afficher ?</value></data>
+  <data name="ModListScanBad" xml:space="preserve"><value>{0} Le répertoire n'a pas été sauvegardé.</value></data>
+  <data name="ModListExportPrefix" xml:space="preserve"><value>installer</value></data>
+  <data name="ModListExported" xml:space="preserve"><value>Liste de mods exportée vers {0}</value></data>
+  <data name="ModListExportFailed" xml:space="preserve"><value>Échec de l'export : {0}</value></data>
+  <data name="ModListHelpSymbolHeader" xml:space="preserve"><value>Symboles de statut</value></data>
+  <data name="ModListHelpInstalled" xml:space="preserve"><value>Installé</value></data>
+  <data name="ModListHelpAutoInstalled" xml:space="preserve"><value>Auto-installé</value></data>
+  <data name="ModListHelpUpgradeable" xml:space="preserve"><value>À mettre à jour</value></data>
+  <data name="ModListHelpManuallyInstalled" xml:space="preserve"><value>Manuellement installé</value></data>
+  <data name="ModListHelpReplaceable" xml:space="preserve"><value>Remplaçable</value></data>
+  <data name="ModListHelpUnavailable" xml:space="preserve"><value>Indisponible</value></data>
+  <data name="ModListHelpBasicKeysHeader" xml:space="preserve"><value>Touches de base</value></data>
+  <data name="ModListHelpMoveFocus" xml:space="preserve"><value>Changer l'attention</value></data>
+  <data name="ModListHelpSelectRow" xml:space="preserve"><value>Sélectionner la colonne</value></data>
+  <data name="ModListHelpClearSearch" xml:space="preserve"><value>Effacer la recherche</value></data>
+  <data name="ModListHelpSpecialSearchesHeader" xml:space="preserve"><value>Recherches Spéciales</value></data>
+  <data name="ModListHelpAuthor" xml:space="preserve"><value>auteur</value></data>
+  <data name="ModListHelpName" xml:space="preserve"><value>nom</value></data>
+  <data name="ModListHelpSearchAuthor" xml:space="preserve"><value>Mods par auteur</value></data>
+  <data name="ModListHelpSearchInstalled" xml:space="preserve"><value>Mods installés</value></data>
+  <data name="ModListHelpSearchUpgradeable" xml:space="preserve"><value>Mods à mettre à jour</value></data>
+  <data name="ModListHelpSearchDepends" xml:space="preserve"><value>Dépend de nom</value></data>
+  <data name="ModListHelpSearchConflicts" xml:space="preserve"><value>Conflit avec nom</value></data>
+  <data name="ModListHelpSearchNew" xml:space="preserve"><value>Nouveaux mods</value></data>
+  <data name="ExitTitle" xml:space="preserve"><value>{0}, le Réseau Compréhensif des Archives Kerbal</value></data>
+  <data name="ExitBody" xml:space="preserve"><value>Vous utilisez {1}.
 
-Thanks for downloading {0}. We hope you have as
-much fun using it as we had (and have) making it.
+Merci d'avoir téléchargé {0}. Nous espérons que vous avez eu autant
+de plaisir à l'utiliser que nous en avons eu (et avons) à le développer.
 
-If you have paid for {0}, try to get your money back,
-because you can download {0} for free from
+Si vous avez payé pour {0}, essayez d'en avoir pour votre argent,
+car vous pouvez télécharger {0} gratuitement sur
 {2}
 
-If you have any problems using {0}, please send us an issue at
+Si vous rencontrez des problèmes en utilisant {0}, veuillez nous le signaler sur
 {3}
 
-{0} WAS CREATED BY THE {0} AUTHORS:
+{0} A ÉTÉ CRÉÉ PAR LES AUTEURS DE {0} :
 {4}
 </value></data>
 </root>
