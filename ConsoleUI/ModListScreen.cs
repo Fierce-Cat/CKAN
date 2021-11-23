@@ -657,7 +657,10 @@ namespace CKAN.ConsoleUI {
         private ChangePlan      plan   = new ChangePlan();
         private HashSet<string> recent = new HashSet<string>();
 
-        private const int searchWidth       = 30;
+        private int searchWidth => Math.Max(30, Math.Max(
+            Properties.Resources.ModListSearchFocusedGhostText.Length,
+            Properties.Resources.ModListSearchUnfocusedGhostText.Length
+        ));
         private const int daysTillStale     = 7;
         private const int daystillVeryStale = 30;
 

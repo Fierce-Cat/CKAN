@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using CKAN.ConsoleUI.Toolkit;
 
@@ -130,7 +131,10 @@ namespace CKAN.ConsoleUI {
         /// <summary>
         /// Number of columns reserved at left of screen for labels
         /// </summary>
-        protected const int labelWidth = 24;
+        protected int labelWidth => Math.Max(24, Math.Max(
+            Properties.Resources.InstanceNameLabel.Length,
+            Properties.Resources.InstancePathLabel.Length
+        ));
         private   const int nameRow    = 2;
         /// <summary>
         /// Y coordinate of path field

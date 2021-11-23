@@ -81,7 +81,10 @@ namespace CKAN.ConsoleUI {
         private ConsoleField tokenEntry;
 
         private const int wPad   = 2;
-        private const int labelW = 6;
+        private int labelW => Math.Max(6, Math.Max(
+            Properties.Resources.AuthTokenAddHost.Length,
+            Properties.Resources.AuthTokenAddToken.Length
+        ));
         private const int height = 7;
     }
 

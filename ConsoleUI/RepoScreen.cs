@@ -154,7 +154,10 @@ namespace CKAN.ConsoleUI {
 
         private RepositoryList defaultRepos;
 
-        private const int labelWidth = 8;
+        private int labelWidth => Math.Max(8, Math.Max(
+            Properties.Resources.RepoNameLabel.Length,
+            Properties.Resources.RepoURLLabel.Length
+        ));
         private const int nameRow    = 3;
         private const int urlRow     = 5;
     }
