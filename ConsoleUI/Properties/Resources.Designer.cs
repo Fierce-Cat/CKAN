@@ -167,6 +167,33 @@ namespace CKAN.ConsoleUI.Properties {
         internal static string Down {
             get { return (string)(ResourceManager.GetObject("Down", resourceCulture)); }
         }
+        internal static string FileSelectDirectory {
+            get { return (string)(ResourceManager.GetObject("FileSelectDirectory", resourceCulture)); }
+        }
+        internal static string FileSelectCountFooter {
+            get { return (string)(ResourceManager.GetObject("FileSelectCountFooter", resourceCulture)); }
+        }
+        internal static string FileSelectNameHeader {
+            get { return (string)(ResourceManager.GetObject("FileSelectNameHeader", resourceCulture)); }
+        }
+        internal static string FileSelectSizeHeader {
+            get { return (string)(ResourceManager.GetObject("FileSelectSizeHeader", resourceCulture)); }
+        }
+        internal static string FileSelectTimestampHeader {
+            get { return (string)(ResourceManager.GetObject("FileSelectTimestampHeader", resourceCulture)); }
+        }
+        internal static string FileSelectChangeDirectory {
+            get { return (string)(ResourceManager.GetObject("FileSelectChangeDirectory", resourceCulture)); }
+        }
+        internal static string FileSelectSelect {
+            get { return (string)(ResourceManager.GetObject("FileSelectSelect", resourceCulture)); }
+        }
+        internal static string FileSelectImport {
+            get { return (string)(ResourceManager.GetObject("FileSelectImport", resourceCulture)); }
+        }
+        internal static string FileSelectDirSize {
+            get { return (string)(ResourceManager.GetObject("FileSelectDirSize", resourceCulture)); }
+        }
         internal static string AuthTokenListTitle {
             get { return (string)(ResourceManager.GetObject("AuthTokenListTitle", resourceCulture)); }
         }

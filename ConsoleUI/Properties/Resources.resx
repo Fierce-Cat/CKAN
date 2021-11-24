@@ -153,6 +153,15 @@
   <data name="Details" xml:space="preserve"><value>Details</value></data>
   <data name="Up" xml:space="preserve"><value>Up</value></data>
   <data name="Down" xml:space="preserve"><value>Down</value></data>
+  <data name="FileSelectDirectory" xml:space="preserve"><value>Directory</value></data>
+  <data name="FileSelectCountFooter" xml:space="preserve"><value>{0} selected, {1}</value></data>
+  <data name="FileSelectNameHeader" xml:space="preserve"><value>Name</value></data>
+  <data name="FileSelectSizeHeader" xml:space="preserve"><value>Size</value></data>
+  <data name="FileSelectTimestampHeader" xml:space="preserve"><value>Accessed</value></data>
+  <data name="FileSelectChangeDirectory" xml:space="preserve"><value>Change directory</value></data>
+  <data name="FileSelectSelect" xml:space="preserve"><value>Select</value></data>
+  <data name="FileSelectImport" xml:space="preserve"><value>Import</value></data>
+  <data name="FileSelectDirSize" xml:space="preserve"><value>&lt;DIR&gt;</value></data>
   <data name="AuthTokenListTitle" xml:space="preserve"><value>Authentication Tokens</value></data>
   <data name="AuthTokenListGitHubLink" xml:space="preserve"><value>Make a GitHub API token</value></data>
   <data name="AuthTokenListGitHubLinkTip" xml:space="preserve"><value>Open the web page for creating GitHub API authentication tokens</value></data>
